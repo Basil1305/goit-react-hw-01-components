@@ -1,0 +1,27 @@
+.statistics {
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+  display: block;
+  color: rgb(119, 119, 119);
+  width: auto;
+}
+.statList {
+  padding: 0;
+  margin-top: 0;
+  width: auto;
+  height: 70px;
+  list-style: none;
+  display: inline-flex;
+  background-color: teal;
+  margin-bottom: 0px;
+}
+.statList li {
+  border: 5px solid #ffffff;
+  color: #fff;
+  display: grid;
+  padding: 5px;
+  align-content: center;
+  text-align: center;
+  width: 50px;
+}
