@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./TransactionHistory.module.css";
+import s from "./TransactionHistory.module.css";
 
 export default function TransactionHistory({ items }) {
   return (
-    <table className={styles.TransactionHistory}>
+    <table className={s.TransactionHistory}>
       <thead>
         <tr>
           <th>Type</th>

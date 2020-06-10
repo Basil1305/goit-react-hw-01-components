@@ -1,15 +1,16 @@
 import React from "react";
-import styles from "./Statistics.module.css";
-import data from "./statistical-data.json";
+import data from "../Data/statistical-data.json";
+import s from "./Statistics.module.css";
+
 export default function Statistics({ title }) {
   return (
-    <section className={styles.statistics}>
-      <h2 className={styles.title}>{title}</h2>
-      <ul className={styles.statList}>
+    <section className={s.statistics}>
+      <h2 className={s.title}>{title}</h2>
+      <ul className={s.statList}>
         {data.map((i) => (
-          <li key={i.id} className={styles.item}>
-            <span className={styles.label}>{i.label}</span>
-            <span className={styles.percentage}>{i.percentage}%</span>
+          <li key={i.id} className={s.item}>
+            <span className={s.label}>{i.label}</span>
+            <span className={s.percentage}>{i.percentage}%</span>
           </li>
         ))}
       </ul>
