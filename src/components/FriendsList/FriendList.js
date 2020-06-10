@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import s from "./FriendList.module.css";
 
 export default function FriendList({ friends }) {
@@ -16,3 +17,11 @@ export default function FriendList({ friends }) {
     </ul>
   );
 }
+
+FriendList.defaultProps = {
+  friends: {},
+};
+
+FriendList.propTypes = {
+  friends: PropTypes.object,
+};
