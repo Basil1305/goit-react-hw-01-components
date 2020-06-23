@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import data from "../Data/statistical-data.json";
+
+import data from "../../data/statistical-data.json";
+
 import s from "./Statistics.module.css";
 
 export default function Statistics({ title }) {

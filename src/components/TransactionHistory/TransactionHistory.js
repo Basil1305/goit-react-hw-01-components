@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import s from "./TransactionHistory.module.css";
 
 export default function TransactionHistory({ items }) {
